@@ -12,6 +12,7 @@ cor5 = "#FFAB40" # laranja
 janela = Tk()
 janela.title("Calculadora")
 janela.geometry("235x310")
+janela.resizable(width=FALSE, height=FALSE)
 janela.config(bg=cor1)
 
 # criando frames
